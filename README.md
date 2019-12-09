@@ -35,7 +35,7 @@ Using debug console, you may use the shortened minified version.
 
 `ita-matrix-powertools.user.js` -- Main userscript, install using a browser userscript manager (such as Greasemonkey or Tampermonkey) or utilize directly in your browser's debug console.
 
-`script_minified.txt` --  Compact, paste-able version of the script for pasting in the debug console.
+`script_minified.js` --  Compact, paste-able version of the script for pasting in the debug console.
 
 ### Latest major changes ###
 
