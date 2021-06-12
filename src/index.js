@@ -172,7 +172,8 @@ function injectCss() {
   css += `.${classSettings.resultpage.mcDiv}.powertoolslinkinlinecontainer { background-color: #f2f2f2; }`;
   css +=
     ".powertoolsimage { width: 184px; height: 100px; background-color: white; border: 1px solid #808080; cursor: pointer; text-align: center; margin-top: 10px; padding-top: 84px; }";
-
+  css +=
+    ".pt-history-item:hover .pt-history-remove { visibility: visible !important; }";
   style.appendChild(document.createTextNode(css));
 
   head.appendChild(style);
