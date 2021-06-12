@@ -1,6 +1,8 @@
+const package = require("../package.json");
+
 const tokens = {
-  __VERSION__: process.env.npm_package_version,
-  __DESCRIPTION__: process.env.npm_package_description
+  __VERSION__: package.version,
+  __DESCRIPTION__: package.description
 };
 
 module.exports = {

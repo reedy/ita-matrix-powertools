@@ -17,8 +17,8 @@
     "release:opera": "shipit opera ./webext"
   },
   "dependencies": {
-    "date-fns": "^2.9.0",
-    "date-fns-tz": "^1.0.10"
+    "date-fns": "^2.22.1",
+    "date-fns-tz": "^1.1.4"
   },
   "napa": {
     "JSONCrush": "KilledByAPixel/JSONCrush#29a6042e7417fde317e60ba2ae54f1384f612c4b"
@@ -29,21 +29,21 @@
     }
   },
   "devDependencies": {
-    "@types/greasemonkey": "^4.0.0",
-    "@types/webpack-env": "^1.15.0",
+    "@types/greasemonkey": "^4.0.1",
+    "@types/webpack-env": "^1.16.0",
     "@wext/shipit": "github:adamhwang/wext-shipit",
     "dom-chef": "^4.2.2",
-    "exports-loader": "^1.1.0",
-    "husky": "^4.2.1",
+    "exports-loader": "^1.1.1",
+    "husky": "^4.3.8",
     "napa": "^3.0.0",
     "path": "^0.12.7",
     "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
-    "ts-loader": "^8.0.3",
-    "typescript": "^3.9.7",
+    "pretty-quick": "^2.0.2",
+    "ts-loader": "^8.3.0",
+    "typescript": "^3.9.9",
     "uglify-es": "^3.3.9",
     "upload-opera-extension": "github:adamhwang/upload-opera-extension",
-    "webpack": "^5.2.0",
-    "webpack-cli": "^4.1.0"
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
   }
 }
