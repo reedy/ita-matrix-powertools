@@ -23,6 +23,9 @@ const defaultSettings = {
   /** @type {{ ts: string, savedSearch: string, url: string }[]} history */
   history: [], // search history
 
+  /** @type {{ ts: string, savedSearch: string, url: string }[]} history */
+  pins: [], // search history
+
   enableAffiliates: 1
 };
 

@@ -114,6 +114,3 @@ export function toDate(dateLike) {
 export function dayDiff(startDate, endDate) {
   return Math.floor((endDate.getTime() - startDate.getTime()) / 86400000);
 }
-
-export const waitFor = delay =>
-  new Promise(resolve => setTimeout(resolve, delay));
