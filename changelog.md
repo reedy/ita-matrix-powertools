@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.54.0] - 2021-06-13
+
+Edited by IAkH
+
+- remove and pin search history
+
 ## [0.53.3] - 2020-12-04
 
 Edited by IAkH
